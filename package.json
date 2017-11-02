@@ -1,0 +1,36 @@
+{
+  "name": "gm88",
+  "version": "1.0.0",
+  "description": "怪猫官网",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && node_modules/.bin/webpack-dev-server",
+    "build": "export NODE_ENV=production  && node_modules/.bin/webpack"
+  },
+  "author": "esymeptoo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "ejs-loader": "^0.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "postcss": "^6.0.13",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.3.0",
+    "zepto": "^1.2.0"
+  }
+}
